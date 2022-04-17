@@ -5,4 +5,17 @@
       margin-right: 5px;
     }
   }
+  .middle-header {
+    .brand-logo {
+      width: 120px;
+    }
+    .icon-list {
+      li {
+        margin: auto;
+        padding: 3px;
+        box-shadow: 0px 0px 4px #bdbdbd;
+        border-radius: 50%;
+      }
+    }
+  }
 }
