@@ -1,12 +1,13 @@
+import Banner from "components/home/Banner";
+import Products from "components/home/Products";
 import { Container } from "react-bootstrap";
 
 function Home() {
   return (
-    <div>
-      <Container>
-        <h1>🏡 home</h1>
-      </Container>
-    </div>
+    <Container>
+      <Banner />
+      <Products />
+    </Container>
   );
 }
 
